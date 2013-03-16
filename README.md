@@ -5,6 +5,8 @@ Intuitive 3D Rubik Cube with Three.js
 
 ![Rubik3](/assets/rubik3.png)
 
+##Live Example
+http://foo123.github.com/examples/rubik3/
 
 
 *Contributor* Nikos M.  
