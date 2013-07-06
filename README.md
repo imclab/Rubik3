@@ -1,12 +1,12 @@
 Rubik3
 ======
 
-Intuitive 3D Rubik Cube with Three.js
+__Intuitive 3D Rubik Cube with Three.js__
 
 [![Rubik3](/assets/rubik3.png)](http://foo123.github.com/examples/rubik3/)
 
-##Live Example
-http://foo123.github.com/examples/rubik3/
+###Live Example
+* [3D Rubik](http://foo123.github.com/examples/rubik3/)
 
 
 *Contributor* Nikos M.  
