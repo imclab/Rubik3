@@ -9,6 +9,7 @@
 				font-family: Monospace;
 				background: #121212 url('assets/back.png') no-repeat 50% 50%;
 				margin: 0px;
+                color:#aaa;
 				overflow: hidden;
 				padding:0;
 				position:relative;
@@ -47,12 +48,9 @@
 	</head>
 	<body>
         <a href="https://github.com/foo123/Rubik3">
-        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+        <img style="position: absolute; z-index:100; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
         </a>
         
-		<div style="color:#fff;position:absolute;top:5px;left:300px;">
-		Original Code: <a href="http://nikos-web-development.netai.net/">Nikos M.</a>
-		</div>
 		<div id='controls' style='position:absolute;z-index:100;width:200px;margin:0;padding:0'>
 			<div id='pad' style="background-image:url('assets/pad.jpg');width:100px;height:100px;position:relative;cursor:pointer;">
 				<div id='cross' style="position:absolute;width:20px;height:20px;top:40px;left:40px;background:transparent url('assets/cross.png'); no-repeat 0 0"></div>
@@ -66,7 +64,7 @@
 				<input type='button' id='newrubik' value='new cube'/><br />
 				<input type='button' id='scramble' value='scramble'/><br />
 				<input type='button' id='undo' value='undo'/><br /><br />
-				<p style="color:#fff">Drag Mouse with Button pressed over row or column to rotate sides</p>
+				<p>Drag Mouse with Button pressed over row or column to rotate sides</p>
 			</div>
 			<div id='colors' style="position:relative;">
 				<div class='color-class colorSelector'><div id='cstop1'></div></div>
@@ -82,7 +80,7 @@
 				<div style="float:none;clear:both"></div>
 			</div>
 		</div>
-		<div id="flatimage" style="position:absolute;z-index:100;bottom:0;right:0;"></div>
+		<div id="flatimage" style="position:absolute;z-index:10;bottom:0;right:0;"></div>
 		<div id="container" style="position:relative;margin:0 auto;padding:0;z-index:0;cursor:pointer;"></div>
 		<!--  	Rubik Cube Viewer (and future Solver, not yet) implementation in HTML 5 canvas, javascript three.js 3D Library
 				Based on previous implementation of Rubik Cube Viewer and Solver in Actionscript 3 with PaperVision3D 2
