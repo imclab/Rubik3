@@ -1,6 +1,9 @@
 Rubik3
 ======
 
+## Further development on this project has stopped!!
+
+
 __Intuitive 3D Rubik Cube with Three.js__
 
 [![Rubik3](/assets/rubik3.png)](http://foo123.github.com/examples/rubik3/)
